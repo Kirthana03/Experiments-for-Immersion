@@ -124,3 +124,84 @@ img {
     height:550px;
     padding:20px;
 }
+
+@media only screen and (max-width: 400px) {
+
+    .intimages {
+        display: flex;
+        margin-left: 0px;
+    }
+    
+    .intimagesV {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h3 {
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    img {
+        margin: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height:100px;
+    }
+
+    #sub {
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #fltext {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #rec {
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height:100px;
+    }
+
+    #vid {
+        padding: 5px;
+        padding-right: 20px;
+        height:200px;
+    }
+
+    #A4 {
+        padding: 5px;
+        padding-right: 20px;
+        height:240px;
+    }
+
+    #Long {
+        height: 450px;
+    }
+
+    #sq {
+        margin:20px;
+        padding: 0px;
+        height: 200px;
+
+    }
+}
