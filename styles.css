@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin:0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #000;
+  }
+
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #000;
+  }
+
+  .progress-bar {
+    height: 8px;
+    background: rgb(123, 119, 150);
+    width: 0%;
+  }
+
+h1 {
+    padding-left: 200px;
+    font-family: Bricolage Grotesque;
+    font-weight: 400;
+    color: rgb(123, 119, 150);
+    margin-top: 100px;
+    font-size: 70px;
+}
+
+h2 {
+    padding-left: 200px;
+    padding-right: 400px;
+    font-family: Bricolage Grotesque;
+    font-weight: 200;
+    line-height: 150%;
+    color: rgb(158, 158, 163);
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Bricolage Grotesque;
+    font-weight: 200;
+    line-height: 150%;
+    color: rgb(158, 158, 163);
+    font-size: 14px;
+}
+
+.intimages {
+    display: flex;
+    margin-left: 180px;
+}
+
+.intimagesV {
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+}
+img {
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    height: 300px;
+}
+
+#sub {
+    padding-left: 200px;
+    font-family: Bricolage Grotesque;
+    font-weight: 400;
+    color: (123, 119, 150);
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+#sidenote {
+    font-style: italic;
+    color: rgb(123, 119, 150);
+}
+
+#infographics {
+    height: 200px;
+}
+
+#fltext {
+    padding-left: 20px;
+    padding-right: 500px;
+    margin-top: 120px;
+    color:rgb(123, 119, 150);
+    font-weight:500;
+
+}
+
+#sq {
+    height: 450px;
+}
+
+#Long {
+    height: 1200px;
+}
+
+#rec {
+    height:320px; 
+    border: 1.2px solid #9e9e9e;
+    border-radius: 0;
+    padding:0px;
+    margin-left: 20px;
+}
+
+#vid {
+    padding-left: 200px;
+
+}
+
+#A4 {
+    height:550px;
+    padding:20px;
+}
